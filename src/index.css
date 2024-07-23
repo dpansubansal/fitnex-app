@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  /* margin: 0px 100px; */
+  /* width: 100%; */
+  /* background: goldenrod; */
+}
+
+.btn {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 4px;
+  background: var(--Brand-Purple-Dark, #433896);
+  border: 1px solid #433896;
+  cursor: pointer;
+}

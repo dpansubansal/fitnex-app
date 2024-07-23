@@ -1,0 +1,32 @@
+.hero {
+  min-height: 100vh;
+  background: var(--Brand-Purple-Light, #ece8ff);
+}
+
+.hero-section {
+  padding: 180px 100px 80px 100px;
+  gap: 80px;
+  display: flex;
+}
+
+.hero-text-heading {
+  color: #2f2f2f;
+  /* font-family: "Avenir Next Cyr"; */
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100.4%; /* 62.248px */
+  letter-spacing: 0.012px;
+  text-transform: capitalize;
+}
+
+.hero-text-desc {
+  color: var(--Grey-600, #666);
+
+  /* Paragraph */
+  /* font-family: "Avenir Next Cyr"; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
