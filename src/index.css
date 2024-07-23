@@ -1,21 +1,66 @@
-body {
+@font-face {
+  font-family: "Avenir Next Cyr";
+  src: url("../public/AvenirNextCyr-Regular.ttf") format("truetype");
+  /* Additional font properties if needed */
+}
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Avenir Next Cyr";
 }
 
-.container{
+.common-heading {
+  color: var(--Black, #000);
+
+  /* Heading */
+  font-family: "Avenir Next Cyr";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.common-paragraph {
+  color: var(--Grey-600, #666);
+  /* Paragraph */
+  font-family: "Avenir Next Cyr";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.common-main-heading {
+  color: #2f2f2f;
+
+  /* Main Heading */
+  font-family: "Avenir Next Cyr";
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 62px */
+  text-transform: capitalize;
+}
+
+.common-paragraph2 {
+  color: var(--Grey-300, #999);
+
+  /* Paragraph  2 */
+  font-family: "Avenir Next Cyr";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container {
   /* margin: 0px 100px; */
   /* width: 100%; */
-  /* background: goldenrod; */
 }
 
 .btn {
@@ -25,4 +70,17 @@ code {
   background: var(--Brand-Purple-Dark, #433896);
   border: 1px solid #433896;
   cursor: pointer;
+  width: fit-content;
+}
+
+.download-app-links {
+  display: flex;
+  gap: 20px;
+  float: left;
+  margin-top: 40px;
+}
+
+.download-app-links img {
+  width: 100%;
+  object-fit: scale-down;
 }

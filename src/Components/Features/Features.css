@@ -57,7 +57,7 @@
   position: absolute !important;
   top: 100% !important;
   margin-top: 65px;
-  z-index: 12;
+  z-index: 2;
 }
 .custom-prev-arrow {
   right: 55%;

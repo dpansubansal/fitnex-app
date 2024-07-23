@@ -1,5 +1,12 @@
-.about{
-    padding: 100px;
-    display: flex;
-    gap: 120px;
+.about {
+  padding: 100px;
+  display: flex;
+  gap: 120px;
+  align-items: center;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
