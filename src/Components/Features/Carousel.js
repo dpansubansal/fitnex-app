@@ -35,10 +35,10 @@ const items = [
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div onClick={onClick}>
+    <div className="custom-arrow custom-next-arrow">
       <svg
-        className={`${className} custom-next-arrow custom-arrow`}
-        style={{ ...style, right: "75vh", width: "47", height: "47" }}
+        className={`${className}`}
+        style={{ ...style, width: "47", height: "47" }}
         onClick={onClick}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 48 48"
@@ -64,13 +64,14 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div onClick={onClick}>
+    <div className="custom-arrow custom-prev-arrow">
       <svg
-        className={`${className} custom-prev-arrow custom-arrow`}
-        style={{ ...style, left: "75vh", width: "47", height: "47" }}
+        className={`${className}`}
+        style={{ ...style, width: "47", height: "47" }}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 48 48"
         fill="none"
+        onClick={onClick}
       >
         <rect
           x="0.5"

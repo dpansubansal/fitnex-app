@@ -16,6 +16,8 @@
 
 /* Carousel */
 .carousel-container {
+  margin-top: 45px;
+  margin-bottom: 80px;
   /* margin-right: -100px; */
 }
 
@@ -52,11 +54,20 @@
 }
 
 .custom-arrow {
+  position: absolute !important;
   top: 100% !important;
   margin-top: 65px;
+  z-index: 12;
+}
+.custom-prev-arrow {
+  right: 55%;
+}
+.custom-next-arrow {
+  left: 55%;
 }
 
 .slick-dots {
   bottom: unset !important;
   margin-top: 45px !important;
+  /* width: unset !important; */
 }
