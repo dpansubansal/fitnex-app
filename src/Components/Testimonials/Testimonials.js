@@ -39,14 +39,6 @@ const Testimonials = () => {
       pic: authorPic,
       postDate: "June 05, 2024",
     },
-    {
-      name: "Tanvi Rathore",
-      comment:
-        "As a busy mom, finding time to exercise is tough. This app's quick and effective workouts fit perfectly into my schedule.",
-      rating: rating5,
-      pic: authorPic,
-      postDate: "September 15, 2023",
-    },
   ];
   return (
     <div className="testimonials" id="testimonials">
