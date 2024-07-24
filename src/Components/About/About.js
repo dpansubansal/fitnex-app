@@ -5,7 +5,7 @@ import Tag from "../Common/Tag";
 
 const About = () => {
   return (
-    <div className="about" id="about">
+    <div className="about container" id="about">
       <div className="about-img">
         <img src={aboutImg} alt="about-img" />
       </div>

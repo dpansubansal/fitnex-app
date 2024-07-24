@@ -8,7 +8,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="hero container" id="hero">
-      <div className="hero-section">
+      <div className="hero-section container">
         <div className="hero-text">
           <div className="common-main-heading">
             Transform Your Fitness Journey with AI-Powered Guidance

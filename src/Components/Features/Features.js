@@ -35,7 +35,7 @@ const Features = () => {
     },
   ];
   return (
-    <div className="features" id="features">
+    <div className="features container" id="features">
       <div className="features-tag">
         <Tag title="features" />
       </div>

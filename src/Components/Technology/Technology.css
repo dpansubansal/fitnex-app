@@ -1,5 +1,6 @@
 .technology {
-  padding: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
   gap: 80px;
   align-items: center;

@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer container">
       <div className="download-app">
         <div className="download-app-Bg">
           <img src={downloadAppBg} alt="downloadAppBg"></img>

@@ -63,7 +63,6 @@ function SamplePrevArrow(props) {
   );
 }
 const Carousel = ({ children }) => {
-  console.log("the items", children);
   const settings = {
     dots: true,
     infinite: false,

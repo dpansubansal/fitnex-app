@@ -1,9 +1,10 @@
 .footer {
   text-align: -webkit-center;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .download-app {
   background: #f7f6ff;
-  padding: 80px 100px;
   text-align: left;
 }
 

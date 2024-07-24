@@ -1,6 +1,7 @@
 .testimonials {
   background: var(--Brand-Purple-Light, #ece8ff);
-  padding: 80px 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   text-align: center;
 }
 .testimonials-heading {

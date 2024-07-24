@@ -41,7 +41,7 @@ const Testimonials = () => {
     },
   ];
   return (
-    <div className="testimonials" id="testimonials">
+    <div className="testimonials container" id="testimonials">
       <div className="testimonials-tag">
         <Tag title="testimonials" />
       </div>
