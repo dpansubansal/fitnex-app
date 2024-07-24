@@ -1,8 +1,10 @@
 import React from "react";
 import "./Features.css";
-import Carousel from "./Carousel";
+import Carousel from "../Common/Carousel";
 import feature1 from "../../assets/feature1.png";
 import feature2 from "../../assets/feature2.png";
+import feature3 from "../../assets/feature3.png";
+import feature4 from "../../assets/feature4.png";
 
 const Features = () => {
   const items = [
@@ -19,16 +21,16 @@ const Features = () => {
         "Deepen your practice with precision-guided flows and a wide range of Asanas.",
     },
     {
-      imgSrc: feature1,
+      imgSrc: feature3,
       title: "Variety of Exercises",
       description:
         "Select from a wide range of workouts from Cardio & HIIT to Strength and Mobility Trainings.",
     },
     {
-      imgSrc: feature2,
+      imgSrc: feature4,
       title: "AI-Powered Asanas",
       description:
-        "Get real-time feedback and voice commands to perfect your asanas.",
+        "Get real-time feedback and hands-free commands to perfect your form.",
     },
   ];
   return (
@@ -40,8 +42,8 @@ const Features = () => {
         {items.map((item, index) => (
           <div key={index} className="carousel-item">
             <img src={item.imgSrc} alt={item.title} />
-            <div className="common-card-heading card-heading">{item.title}</div>
-            <div className="common-paragraph2 card-desc">
+            <div className="common-card-heading features-card-heading">{item.title}</div>
+            <div className="common-paragraph2 features-card-desc">
               {item.description}
             </div>
           </div>

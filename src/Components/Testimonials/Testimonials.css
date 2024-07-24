@@ -1,0 +1,31 @@
+.testimonials {
+  background: var(--Brand-Purple-Light, #ece8ff);
+  padding: 80px 100px;
+  text-align: center;
+}
+.testimonials-heading {
+  text-align: center;
+}
+
+.testimonials-card-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+.testimonials-card-desc {
+  margin-top: 20px;
+}
+.carousel-testimonial-item {
+  text-align: -webkit-center;
+  height: 268px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-name {
+  color: var(--Black, #000);
+}
