@@ -4,34 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Features.css";
-import feature1 from "../../assets/feature1.png";
-import feature2 from "../../assets/feature2.png";
 
-const items = [
-  {
-    imgSrc: feature1,
-    title: "Variety of Exercises & Yoga Poses",
-    description: "Select from a wide range of workouts tailored to your needs.",
-  },
-  {
-    imgSrc: feature2,
-    title: "Variety of Yoga Poses",
-    description:
-      "Deepen your practice with precision-guided flows and a wide range of Asanas.",
-  },
-  {
-    imgSrc: feature1,
-    title: "Variety of Exercises",
-    description:
-      "Select from a wide range of workouts from Cardio & HIIT to Strength and Mobility Trainings.",
-  },
-  {
-    imgSrc: feature2,
-    title: "AI-Powered Asanas",
-    description:
-      "Get real-time feedback and voice commands to perfect your asanas.",
-  },
-];
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -89,13 +62,13 @@ function SamplePrevArrow(props) {
     </div>
   );
 }
-
-const Carousel = () => {
+const Carousel = ({ children }) => {
+  console.log("the items", children);
   const settings = {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 3.5,
     slidesToScroll: 1,
     prevArrow: <SamplePrevArrow />,
     nextArrow: <SampleNextArrow />,
@@ -128,15 +101,7 @@ const Carousel = () => {
 
   return (
     <div className="carousel-container">
-      <Slider {...settings}>
-        {items.map((item, index) => (
-          <div key={index} className="carousel-item">
-            <img src={item.imgSrc} alt={item.title} />
-            <h3>{item.title}</h3>
-            <p>{item.description}</p>
-          </div>
-        ))}
-      </Slider>
+      <Slider {...settings}>{children}</Slider>
     </div>
   );
 };

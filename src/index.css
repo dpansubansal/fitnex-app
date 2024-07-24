@@ -58,6 +58,21 @@ body {
   line-height: normal;
 }
 
+.common-card-heading {
+  color: var(--Black, #000);
+
+  /* Card Heading */
+  font-family: "Avenir Next Cyr";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.active {
+  color: red;
+}
+
 .container {
   /* margin: 0px 100px; */
   /* width: 100%; */
