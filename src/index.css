@@ -81,6 +81,18 @@ body {
   line-height: normal;
 }
 
+.common-header-tag {
+  color: var(--Brand-Purple-Dark, #433896);
+
+  /* Header Tag */
+  font-family: "Avenir Next Cyr";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-variant: all-small-caps;
+}
+
 .active {
   color: red;
 }

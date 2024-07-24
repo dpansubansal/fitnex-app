@@ -49,3 +49,14 @@
   padding-right: 100px !important;
   /* padding-right: 50px !important;  changes */
 }
+
+.tag {
+  display: flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Brand-Color, #fcff03);
+  width: fit-content;
+}

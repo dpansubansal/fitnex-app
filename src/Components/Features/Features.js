@@ -5,6 +5,7 @@ import feature1 from "../../assets/feature1.png";
 import feature2 from "../../assets/feature2.png";
 import feature3 from "../../assets/feature3.png";
 import feature4 from "../../assets/feature4.png";
+import Tag from "../Common/Tag";
 
 const Features = () => {
   const items = [
@@ -35,6 +36,9 @@ const Features = () => {
   ];
   return (
     <div className="features">
+      <div className="features-tag">
+        <Tag title="features" />
+      </div>
       <div className="features-heading common-heading">
         All your asanas with correct poses
       </div>
@@ -42,7 +46,9 @@ const Features = () => {
         {items.map((item, index) => (
           <div key={index} className="carousel-item">
             <img src={item.imgSrc} alt={item.title} />
-            <div className="common-card-heading features-card-heading">{item.title}</div>
+            <div className="common-card-heading features-card-heading">
+              {item.title}
+            </div>
             <div className="common-paragraph2 features-card-desc">
               {item.description}
             </div>

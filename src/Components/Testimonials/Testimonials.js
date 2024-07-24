@@ -3,6 +3,7 @@ import Carousel from "../Common/Carousel";
 import "./Testimonials.css";
 import rating5 from "../../assets/rating5.png";
 import authorPic from "../../assets/author-pic.png";
+import Tag from "../Common/Tag";
 
 const Testimonials = () => {
   const authors = [
@@ -41,6 +42,9 @@ const Testimonials = () => {
   ];
   return (
     <div className="testimonials">
+      <div className="testimonials-tag">
+        <Tag title="testimonials" />
+      </div>
       <div className="testimonials-heading common-heading">
         Straight From The User’s Heart
       </div>

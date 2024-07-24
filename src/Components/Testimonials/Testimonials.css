@@ -5,8 +5,12 @@
 }
 .testimonials-heading {
   text-align: center;
+  margin-top: 19px;
 }
 
+.testimonials-tag {
+  text-align: -webkit-center;
+}
 .testimonials-card-about {
   display: flex;
   justify-content: center;

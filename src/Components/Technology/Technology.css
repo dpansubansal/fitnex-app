@@ -2,10 +2,10 @@
   padding: 100px;
   display: flex;
   gap: 80px;
+  align-items: center;
 }
 .technology-text {
-  align-content: center;
-}
-.technology-text-desc {
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

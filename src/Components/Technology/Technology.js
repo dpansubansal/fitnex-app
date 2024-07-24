@@ -1,6 +1,7 @@
 import React from "react";
 import technologyImg from "../../assets/technology.png";
 import "./Technology.css";
+import Tag from "../Common/Tag";
 
 const Technology = () => {
   return (
@@ -9,7 +10,10 @@ const Technology = () => {
         <img src={technologyImg} alt="technology-img" />
       </div>
       <div className="technology-text">
-        <div className="technology-text-heading common-heading">How It Works?</div>
+        <Tag title="technology" />
+        <div className="technology-text-heading common-heading">
+          How It Works?
+        </div>
         <div className="technology-text-desc common-paragraph">
           Our app leverages advanced AI and ML algorithms to provide
           personalized fitness guidance. With real-time pose detection, voice

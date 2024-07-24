@@ -4,6 +4,7 @@
 }
 .features-heading {
   text-align: center;
+  margin-top: 19px;
 }
 
 .features-card-heading {
@@ -11,4 +12,8 @@
 }
 .features-card-desc {
   margin-top: 10px;
+}
+
+.features-tag {
+  text-align: -webkit-center;
 }

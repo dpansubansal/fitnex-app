@@ -1,6 +1,7 @@
 import React from "react";
 import aboutImg from "../../assets/about-img.png";
 import "./About.css";
+import Tag from "../Common/Tag";
 
 const About = () => {
   return (
@@ -9,6 +10,7 @@ const About = () => {
         <img src={aboutImg} alt="about-img" />
       </div>
       <div className="about-text">
+        <Tag title="About Us" />
         <div className="about-text-heading common-heading ">Who We Are?</div>
         <div className="about-text-desc common-paragraph">
           At Spanidea Systems, we are passionate about integrating cutting-edge
