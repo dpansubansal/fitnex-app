@@ -2,8 +2,6 @@
 .carousel-container {
   margin-top: 45px;
   margin-bottom: 80px;
-  margin-right: -100px;
-  /* margin-right: -100px; changes */
 }
 
 .carousel-item {
@@ -33,8 +31,6 @@
   top: 100% !important;
   margin-top: 65px;
   z-index: 2;
-  margin-right: 100px;
-  /* margin-right: 50px; changes */
 }
 .custom-prev-arrow {
   right: 55%;
@@ -46,8 +42,6 @@
 .slick-dots {
   bottom: unset !important;
   margin-top: 45px !important;
-  padding-right: 100px !important;
-  /* padding-right: 50px !important;  changes */
 }
 
 .tag {

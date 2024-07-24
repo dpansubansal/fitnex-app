@@ -8,6 +8,14 @@ import Tag from "../Common/Tag";
 const Testimonials = () => {
   const authors = [
     {
+      name: "Dipanhu Bansal",
+      comment:
+        "Practicing yoga on Fitnex has been a wonderful journey. It become my favorite part of the week!.",
+      rating: rating5,
+      pic: authorPic,
+      postDate: "Aug 02, 2024",
+    },
+    {
       name: "Rohan Purohit",
       comment:
         "This app has transformed my fitness routine! The AI guidance is incredibly accurate and helpful.",
@@ -41,7 +49,7 @@ const Testimonials = () => {
     },
   ];
   return (
-    <div className="testimonials">
+    <div className="testimonials" id="testimonials">
       <div className="testimonials-tag">
         <Tag title="testimonials" />
       </div>

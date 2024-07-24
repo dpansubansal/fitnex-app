@@ -5,7 +5,7 @@ import Tag from "../Common/Tag";
 
 const Technology = () => {
   return (
-    <div className="technology">
+    <div className="technology" id="technology">
       <div className="technology-img">
         <img src={technologyImg} alt="technology-img" />
       </div>

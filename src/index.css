@@ -94,7 +94,12 @@ body {
 }
 
 .active {
-  color: red;
+  color: var(--Brand-Purple-Dark, #433896);
+  font-weight: 700;
+}
+
+.li {
+  cursor: pointer;
 }
 
 .container {

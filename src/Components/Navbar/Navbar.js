@@ -10,14 +10,30 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="logo" />
         <div className="ul common-paragraph2">
           <div className="li">
-            <Link to="hero" smooth={true} activeClass="active">
+            <Link to="hero" spy={true} smooth={true} offset={-125} delay={500}>
               Home
             </Link>
           </div>
-          <div className="li">About</div>
-          <div className="li">Features</div>
-          <div className="li">Technology</div>
-          <div className="li">Testimonials</div>
+          <div className="li">
+            <Link to="about" spy={true} smooth={true} offset={-125}>
+              About
+            </Link>
+          </div>
+          <div className="li">
+            <Link to="features" spy={true} smooth={true} offset={-125}>
+              Features
+            </Link>
+          </div>
+          <div className="li">
+            <Link to="technology" spy={true} smooth={true} offset={-125}>
+              Technology
+            </Link>
+          </div>
+          <div className="li">
+            <Link to="testimonials" spy={true} smooth={true} offset={-125}>
+              Testimonials
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
