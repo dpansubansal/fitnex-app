@@ -4,12 +4,15 @@
   display: flex;
   gap: 120px;
   align-items: center;
+  justify-content: center;
 }
 
 .about-text {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 604px;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -24,6 +27,8 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .about-text{

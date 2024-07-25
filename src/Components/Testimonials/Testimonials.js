@@ -45,7 +45,7 @@ const Testimonials = () => {
         "As a busy mom, finding time to exercise is tough. This app's quick and effective workouts fit perfectly into my schedule.",
       rating: rating5,
       pic: authorPic,
-      postDate: "June 01, 2024",
+      postDate: "June 01  , 2024",
     },
   ];
   return (

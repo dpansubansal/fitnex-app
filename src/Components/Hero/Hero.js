@@ -21,7 +21,16 @@ const Hero = () => {
             and improvement tips.
           </div>
           <div className="download-app-links">
-            <img src={playStore} alt="playStore"></img>
+            <img
+              src={playStore}
+              onClick={() => {
+                window.open(
+                  "https://play.google.com/store/apps/details?id=comyogaa.google.mlkit.vision.yogaa&pcampaignid=web_share",
+                  "_blank"
+                );
+              }}
+              alt="playStore"
+            ></img>
             <img src={appStore} alt="appStore"></img>
           </div>
         </div>

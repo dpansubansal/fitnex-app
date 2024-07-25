@@ -18,7 +18,7 @@ const About = () => {
           of experts has extensive experience in AI research and application,
           dedicated to bringing innovative fitness solutions to your fingertips.
         </div>
-        <button className="btn common-paragraph">Know More</button>
+        {/* <button className="btn common-paragraph">Know More</button> */}
       </div>
     </div>
   );

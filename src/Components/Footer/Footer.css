@@ -1,7 +1,7 @@
 .footer {
   text-align: -webkit-center;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
 }
 .download-app {
   background: #f7f6ff;
@@ -22,6 +22,7 @@
 
 .download-app-heading {
   color: white;
+  margin-top: 14px;
 }
 
 .download-app-Bg {
@@ -39,6 +40,10 @@
   align-content: center;
   max-width: 60%;
   padding-left: 5%;
+}
+
+.download-app-text>.download-app-links{
+  margin-top: 40px;
 }
 
 .horizontal-line {
@@ -69,11 +74,16 @@
   gap: 24px;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 1000px) {
+  .download-app-text>.download-app-links{
+    margin-top: 20px;
+  }
+  
+}
 
-  .footer{
+@media (max-width: 786px) {
+  .footer {
     padding-top: 40px;
-    padding-bottom: 0px;
   }
 
   .footer-end {
@@ -98,7 +108,19 @@
     text-align: -webkit-center;
   }
 
-  .download-app-text>.download-app-links{
+  .download-app-text > .download-app-links {
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .download-app-text {
+    max-width: 100%;
+  }
+
+  .footer-nav-links {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
   }
 }

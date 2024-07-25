@@ -12,8 +12,15 @@
 .hero-text {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   align-items: flex-start;
+}
+
+.hero-text-desc {
+  margin-top: 20px;
+}
+
+.hero-text > .download-app-links {
+  margin-top: 30px;
 }
 
 @media (max-width: 1000px) {
@@ -28,8 +35,9 @@
     width: 100%;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 550px) {
   .hero-section {
-    padding-top: 140px;
+    padding-top: 110px;
+    padding-bottom: 20px;
   }
 }
