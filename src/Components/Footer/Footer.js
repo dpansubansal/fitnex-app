@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-text">
+      <div className="footer-text container">
         <div className="footer-logo">
           <img src={footerLogo} alt="logo" className="footerLogo" />
         </div>

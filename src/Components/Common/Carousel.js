@@ -67,25 +67,26 @@ const Carousel = ({ children }) => {
     dots: true,
     infinite: false,
     speed: 500,
+    autoplaySpeed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
     prevArrow: <SamplePrevArrow />,
     nextArrow: <SampleNextArrow />,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1000,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          arrows: false,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 700,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
+          arrows: false,
         },
       },
       {
@@ -93,6 +94,7 @@ const Carousel = ({ children }) => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          arrows: false,
         },
       },
     ],

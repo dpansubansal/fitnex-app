@@ -1,5 +1,5 @@
 .hero {
-  min-height: 100vh;
+  min-height: 70vh;
   background: var(--Brand-Purple-Light, #ece8ff);
 }
 
@@ -14,4 +14,22 @@
   flex-direction: column;
   gap: 20px;
   align-items: flex-start;
+}
+
+@media (max-width: 1000px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-img img {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .hero-section {
+    padding-top: 140px;
+  }
 }

@@ -127,3 +127,49 @@ body {
   width: 100%;
   object-fit: scale-down;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0px 5%;
+  }
+  .common-main-heading {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .common-paragraph {
+    font-size: 16px;
+  }
+
+  .common-heading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .download-app-links {
+    align-self: center;
+  }
+}
+
+@media (max-width: 786px) {
+  .common-heading {
+    font-size: 26px;
+  }
+  .download-app-links {
+    justify-content: center;
+    /* width: 100%; */
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 2px;
+  }
+  .common-paragraph {
+    font-size: 14px;
+  }
+
+  .common-paragraph2{
+    font-size: 14px;
+  }
+}

@@ -18,3 +18,10 @@
 .features-tag {
   text-align: -webkit-center;
 }
+
+@media (max-width: 768px) {
+  .features {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

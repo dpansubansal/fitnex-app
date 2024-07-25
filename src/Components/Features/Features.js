@@ -33,6 +33,18 @@ const Features = () => {
       description:
         "Get real-time feedback and hands-free commands to perfect your form.",
     },
+    {
+      imgSrc: feature4,
+      title: "Voice Commands",
+      description:
+        "Complete your workouts without touching your device.",
+    },
+    {
+      imgSrc: feature4,
+      title: "Personalized Progress Tracking",
+      description:
+        "Monitor your improvement and receive tips to enhance your performance.",
+    },
   ];
   return (
     <div className="features container" id="features">

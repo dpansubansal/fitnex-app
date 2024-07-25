@@ -9,7 +9,8 @@
 }
 
 .footer-text {
-  padding: 60px 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
   display: flex;
   width: 100%;
@@ -66,4 +67,38 @@
   display: flex;
   align-items: flex-start;
   gap: 24px;
+}
+
+@media (max-width: 786px) {
+
+  .footer{
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+
+  .footer-end {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .download-app-Bg > img {
+    display: none;
+  }
+
+  .download-app-heading {
+    color: black;
+  }
+  .download-app-text {
+    position: relative;
+    padding-left: unset;
+  }
+  .download-app {
+    background: unset;
+    text-align: -webkit-center;
+  }
+
+  .download-app-text>.download-app-links{
+    width: 100%;
+  }
 }

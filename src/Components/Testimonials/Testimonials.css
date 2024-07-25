@@ -34,3 +34,10 @@
 .author-name {
   color: var(--Black, #000);
 }
+
+@media (max-width: 768px) {
+  .testimonials {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

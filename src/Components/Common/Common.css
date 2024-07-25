@@ -2,6 +2,8 @@
 .carousel-container {
   margin-top: 45px;
   margin-bottom: 80px;
+  /* margin-left: -100px;
+  margin-right: -100px; */
 }
 
 .carousel-item {
@@ -29,19 +31,23 @@
 .custom-arrow {
   position: absolute !important;
   top: 100% !important;
-  margin-top: 65px;
+  margin-top: 60px;
   z-index: 2;
 }
 .custom-prev-arrow {
-  right: 55%;
+  right: 63%;
 }
 .custom-next-arrow {
-  left: 55%;
+  left: 63%;
 }
 
 .slick-dots {
   bottom: unset !important;
   margin-top: 45px !important;
+}
+
+.slick-list{
+  
 }
 
 .tag {
