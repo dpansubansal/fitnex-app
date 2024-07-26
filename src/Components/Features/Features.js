@@ -1,49 +1,58 @@
 import React from "react";
 import "./Features.css";
 import Carousel from "../Common/Carousel";
-import feature1 from "../../assets/feature1.png";
-import feature2 from "../../assets/feature2.png";
-import feature3 from "../../assets/feature3.png";
-import feature4 from "../../assets/feature4.png";
+import feature01 from "../../assets/Features/feature01.png";
+import feature02 from "../../assets/Features/feature02.png";
+import feature03 from "../../assets/Features/feature03.png";
+import feature04 from "../../assets/Features/feature04.png";
+import feature05 from "../../assets/Features/feature05.png";
+import feature06 from "../../assets/Features/feature06.png";
+import feature07 from "../../assets/Features/feature07.png";
 import Tag from "../Common/Tag";
 
 const Features = () => {
   const items = [
     {
-      imgSrc: feature1,
+      imgSrc: feature01,
       title: "Variety of Exercises & Yoga Poses",
       description:
         "Select from a wide range of workouts tailored to your needs.",
     },
     {
-      imgSrc: feature2,
-      title: "Variety of Yoga Poses",
+      imgSrc: feature02,
+      title: "AI-Powered Assistance",
       description:
-        "Deepen your practice with precision-guided flows and a wide range of Asanas.",
+        "Get real-time feedback and hands-free commands to perfect your form.",
     },
     {
-      imgSrc: feature3,
+      imgSrc: feature03,
+      title: "Variety of Yoga Poses",
+      description:
+        "Deepen your practice with precision-guided flows and wide range if Asanas.",
+    },
+    {
+      imgSrc: feature04,
+      title: "Personalized Progress Tracking",
+      description:
+        "Monitor your improvement and receive tips to enhance your performance.",
+    },
+    {
+      imgSrc: feature05,
       title: "Variety of Exercises",
       description:
         "Select from a wide range of workouts from Cardio & HIIT to Strength and Mobility Trainings.",
     },
     {
-      imgSrc: feature4,
-      title: "AI-Powered Asanas",
+      imgSrc: feature06,
+      title: "User-Friendly Interface",
       description:
-        "Get real-time feedback and hands-free commands to perfect your form.",
+        "Easy navigation and seamless user experience.",
     },
     {
-      imgSrc: feature4,
+      imgSrc: feature07,
       title: "Voice Commands",
       description:
         "Complete your workouts without touching your device.",
-    },
-    {
-      imgSrc: feature4,
-      title: "Personalized Progress Tracking",
-      description:
-        "Monitor your improvement and receive tips to enhance your performance.",
     },
   ];
   return (

@@ -1,51 +1,56 @@
 import React from "react";
 import Carousel from "../Common/Carousel";
 import "./Testimonials.css";
-import rating5 from "../../assets/rating5.png";
-import authorPic from "../../assets/author-pic.png";
+import rating5 from "../../assets/Testimonials/rating5.png";
+import rating45 from "../../assets/Testimonials/rating45.png";
+import author1 from "../../assets/Testimonials/author1.jpg";
+import author2 from "../../assets/Testimonials/author2.jpg";
+import author3 from "../../assets/Testimonials/author3.jpg";
+import author4 from "../../assets/Testimonials/author4.jpg";
+import author5 from "../../assets/Testimonials/author5.jpg";
 import Tag from "../Common/Tag";
 
 const Testimonials = () => {
   const authors = [
     {
-      name: "Dipanhu Bansal",
+      name: "Dipanshu Bansal",
       comment:
         "Practicing yoga on Fitnex has been a wonderful journey. It become my favorite part of the week!.",
       rating: rating5,
-      pic: authorPic,
-      postDate: "Aug 02, 2024",
+      pic: author1,
+      postDate: "Jul 26, 2024",
     },
     {
       name: "Rohan Purohit",
       comment:
         "This app has transformed my fitness routine! The AI guidance is incredibly accurate and helpful.",
       rating: rating5,
-      pic: authorPic,
-      postDate: "May 15, 2024",
+      pic: author2,
+      postDate: "Jul 15, 2024",
     },
     {
-      name: "Hiresh Shankla",
+      name: "Sam Tavarez",
       comment:
         "I love the hands-free commands. It makes my yoga sessions so much more fluid and enjoyable.",
-      rating: rating5,
-      pic: authorPic,
-      postDate: "May 15, 2024",
+      rating: rating45,
+      pic: author3,
+      postDate: "June 21, 2024",
     },
     {
-      name: "Hitesh Kumawat",
+      name: "Hary Bottka",
       comment:
         "The progress tracking feature keeps me motivated. I can see my improvement after every session.",
       rating: rating5,
-      pic: authorPic,
-      postDate: "June 05, 2024",
+      pic: author4,
+      postDate: "June 19, 2024",
     },
     {
-      name: "Deepika Rathore",
+      name: "Mellisa Torres",
       comment:
         "As a busy mom, finding time to exercise is tough. This app's quick and effective workouts fit perfectly into my schedule.",
-      rating: rating5,
-      pic: authorPic,
-      postDate: "June 01  , 2024",
+      rating: rating45,
+      pic: author5,
+      postDate: "May 21  , 2024",
     },
   ];
   return (
@@ -66,7 +71,7 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="testimonials-card-about">
-              <div>
+              <div className="author-pic">
                 <img src={author.pic} alt="authorPic" />
               </div>
               <div>

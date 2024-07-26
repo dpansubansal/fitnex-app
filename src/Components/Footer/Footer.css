@@ -42,7 +42,7 @@
   padding-left: 5%;
 }
 
-.download-app-text>.download-app-links{
+.download-app-text > .download-app-links {
   margin-top: 40px;
 }
 
@@ -75,10 +75,9 @@
 }
 
 @media (max-width: 1000px) {
-  .download-app-text>.download-app-links{
+  .download-app-text > .download-app-links {
     margin-top: 20px;
   }
-  
 }
 
 @media (max-width: 786px) {
@@ -95,16 +94,13 @@
   .download-app-Bg > img {
     display: none;
   }
-
-  .download-app-heading {
-    color: black;
-  }
   .download-app-text {
     position: relative;
     padding-left: unset;
   }
   .download-app {
-    background: unset;
+    background-color: #433896;
+    padding: 30px;
     text-align: -webkit-center;
   }
 

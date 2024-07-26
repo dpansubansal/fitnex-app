@@ -23,11 +23,24 @@
   margin-top: 30px;
 }
 
+.hero-img{
+  align-self: center;
+}
+.hero-img-mobile {
+  display: none;
+}
+
 @media (max-width: 1000px) {
   .hero-section {
     flex-direction: column;
     text-align: center;
     gap: 40px;
+  }
+  .hero-img-desktop {
+    display: none;
+  }
+  .hero-img-mobile {
+    display: block;
   }
 }
 @media (max-width: 600px) {

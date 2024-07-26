@@ -1,5 +1,6 @@
 import "./Hero.css";
-import heroImg from "../../assets/hero-img.png";
+import heroImgDesktop from "../../assets/hero-img-desktop.png";
+import heroImgMobile from "../../assets/hero-img-mobile.png";
 import playStore from "../../assets/play-store.png";
 import appStore from "../../assets/app-store.png";
 
@@ -34,8 +35,15 @@ const Hero = () => {
             <img src={appStore} alt="appStore"></img>
           </div>
         </div>
-        <div className="hero-img">
-          <img src={heroImg} alt="hero-img" />
+        <div className="hero-img hero-img-desktop">
+          <img
+            className="hero-img-desktop"
+            src={heroImgDesktop}
+            alt="hero-img"
+          />
+        </div>
+        <div className="hero-img hero-img-mobile">
+          <img className="hero-img-mobile" src={heroImgMobile} alt="hero-img" />
         </div>
       </div>
     </div>

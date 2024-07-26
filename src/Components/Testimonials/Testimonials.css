@@ -34,7 +34,10 @@
 .author-name {
   color: var(--Black, #000);
 }
-
+.author-pic img{
+  width: 50px;
+  border-radius: 50%;
+}
 @media (max-width: 768px) {
   .testimonials {
     padding-top: 40px;
